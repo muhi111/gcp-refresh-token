@@ -17,7 +17,7 @@ The key usecase is to leverage GCP in an external CI pipeline. The original goal
 pnpm dlx gcp-refresh-token
 ```
 
-The resulted refresh token will be written into the `key.json` under the `chrome` property, ready to be used in your CI pipeline. If you use [`bpp`](https://www.browser.market), simply copy it:
+The resulted refresh token will be written into the `key.json` under the `chrome` property, ready to be used in your CI pipeline. If you use [`bpp`](https://github.com/marketplace/actions/browser-platform-publisher), simply copy it:
 
 ```json
 {
